@@ -238,4 +238,3 @@ plt.xticks(rotation=45);
 
 f,ax = plt.subplots(figsize=(18, 18))
 sns.heatmap(x.corr(), annot=True, linewidths=.5, fmt= '.1f',ax=ax);
-
